@@ -68,36 +68,17 @@ html, body {
 		margin-left: auto;
 		font-size: 1.5em;
 		text-align: center;
+		line-height: 12px;
 	}
 
 	.increment-button {
-		background-color:#44c767;
-		-moz-border-radius:42px;
-		-webkit-border-radius:42px;
-		border-radius:42px;
-		border:2px solid #18ab29;
-		display:inline-block;
-		cursor:pointer;
-		color:#ffffff;
-		font-family:Arial;
 		font-size:25px;
 		padding:12px 40px;
-		text-decoration:none;
 	}
 
 	.decrement-button {
-		background-color:#f52020;
-		-moz-border-radius:42px;
-		-webkit-border-radius:42px;
-		border-radius:42px;
-		border:2px solid #ad0c0c;
-		display:inline-block;
-		cursor:pointer;
-		color:#ffffff;
-		font-family:Arial;
 		font-size:25px;
 		padding:12px 40px;
-		text-decoration:none;
 	}
 
 }
