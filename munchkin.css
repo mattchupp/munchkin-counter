@@ -1,0 +1,62 @@
+html, body {
+	width: 100%;
+	height: 100%; 
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.total {
+	font-size: 1.5em;
+}
+
+.container {
+	width: 50%; 
+	margin-right: auto; 
+	margin-left: auto; 
+	/*text-align: center; */
+}
+
+.increment-button {
+	background-color:#44c767;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:10px 30px;
+	text-decoration:none;
+}
+.increment-button:hover {
+	background-color:#5cbf2a;
+}
+.increment-button:active {
+	position:relative;
+	top:1px;
+}
+
+.decrement-button {
+	background-color:#f52020;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #ad0c0c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:10px 30px;
+	text-decoration:none;
+}
+.decrement-button:hover {
+	background-color:#ff1212;
+}
+.decrement-button:active {
+	position:relative;
+	top:1px;
+}
+

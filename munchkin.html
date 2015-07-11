@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Munchkin Counter</title>
+
+	<link rel="stylesheet" type="text/css" href="munchkin.css" media="screen">
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+	var level=0;
+	var gear=0; 
+	var total=0; // gear + level
+
+	function increaseLevel() {
+		level++;
+		total++; 
+		document.getElementById('level').innerHTML= +level;
+		document.getElementById('total').innerHTML= +total;
+	}
+
+	function decreaseLevel() {
+		level--;
+		total--; 
+		document.getElementById('level').innerHTML= level;
+		document.getElementById('total').innerHTML= total;
+	}
+
+	function increaseGear() {
+		gear++;
+		total++; 
+		document.getElementById('gear').innerHTML= +gear;
+		document.getElementById('total').innerHTML= +total;
+	}
+
+	function decreaseGear() {
+		gear--;
+		total--; 
+		document.getElementById('gear').innerHTML= gear;
+		document.getElementById('total').innerHTML= total;
+	}
+
+
+</script>
+
+<div class="container">
+
+	<p class="total"><b id="total">0</b></p>
+
+	<p>Level: <b id="level">0</b></p>
+	<button class="increment-button" type="button" onclick="increaseLevel();">+</button>
+	<button class="decrement-button" type="button" onclick="decreaseLevel();">-</button>
+
+	<p>Gear: <b id="gear">0</b></p>
+	<button class="increment-button" type="button" onclick="increaseGear();">+</button>
+	<button class="decrement-button" type="button" onclick="decreaseGear();">-</button>
+
+
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
