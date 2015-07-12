@@ -60,6 +60,26 @@ html, body {
 	top:1px;
 }
 
+.arrow-up {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 30px 52.0px 30px;
+border-color: transparent transparent #00ff00 transparent;
+}
+
+.arrow-down {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 52.0px 30px 0 30px;
+border-color: #ff0000 transparent transparent transparent;
+
+
+
+
+}
+
 @media only screen and (max-width: 700px) {
 
 	html, body {
